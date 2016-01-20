@@ -1,6 +1,8 @@
 ---
 - hosts: all
   become: true
+  vars:
+    - install_ansible: false  #set to false for Vagrant environment...Ansible is already installed.
   roles:
     - role: ansible-postfix
     - role: ansible-timezone
