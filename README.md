@@ -46,6 +46,7 @@ this project going.
 
 Screenshots
 -----------
+![alt text](screenshots/Jenkins_Integration.png "Jenkins Integration")
 ![alt text](screenshots/Ansible_Host_details.png "Ansible Host Details")
 
 License
