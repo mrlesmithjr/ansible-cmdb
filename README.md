@@ -47,6 +47,9 @@ this project going.
 Screenshots
 -----------
 ![alt text](screenshots/Jenkins_Integration.png "Jenkins Integration")
+
+![alt text](screenshots/Ansible_Group_Actions.png "Ansible Group Actions")
+
 ![alt text](screenshots/Ansible_Host_details.png "Ansible Host Details")
 
 License
