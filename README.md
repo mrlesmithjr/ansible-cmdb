@@ -33,6 +33,12 @@ you registered with. This registration is in no way sent anywhere. It is purely
 written to the DB and then a lookup is done to the DB for logins. (This obviously  
 needs work).
 
+There are many playbooks to utilize within the playbooks directory. You can generate  
+host groups and inventory with details about hosts which are discovered via ansible  
+facts. Those facts can be imported into the DB and then will show up in the WebUI.  
+Once those fields are populated you can then import playbooks and etc. to run against  
+a group of hosts or a single host. Lot's of options...Many are not complete.
+
 Contributing
 ------------
 Highly encouraged. Fork this project. Hack away at it. Submit a PR and let's keep  
