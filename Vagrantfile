@@ -11,7 +11,7 @@ Vagrant.configure(2) do |config|
     cmdb.vm.hostname = "cmdb"
 
     cmdb.vm.network :private_network, ip: "192.168.202.201"
-    cmdb.vm.network "forwarded_port", guest: 8080, host: 80
+    cmdb.vm.network "forwarded_port", guest: 80, host: 8080
 
     cmdb.vm.provider "virtualbox" do |vb|
       vb.memory = "1024"
