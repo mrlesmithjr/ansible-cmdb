@@ -44,6 +44,10 @@ Contributing
 Highly encouraged. Fork this project. Hack away at it. Submit a PR and let's keep  
 this project going.
 
+Screenshots
+-----------
+![alt text](screenshots/Ansible_Host_details.png "Ansible Host Details")
+
 License
 -------
 
