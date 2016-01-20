@@ -1,0 +1,9 @@
+---
+- hosts: cmdb-servers
+  remote_user: remote
+  become: true
+  roles:
+    - role: ansible-postfix
+    - role: ansible-timezone
+    - role: ansible-apache2
+    - role: ansible-cmdb
