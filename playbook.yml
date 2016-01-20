@@ -1,6 +1,5 @@
 ---
-- hosts: cmdb-servers
-  remote_user: remote
+- hosts: all
   become: true
   roles:
     - role: ansible-postfix
